@@ -1,0 +1,12 @@
+.container-fluid{
+    padding-left: 9% !important;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 1000px) {
+    .container-fluid{
+        padding-left: 0% !important;
+        margin-left: 0% !important;
+    }
+    
+}

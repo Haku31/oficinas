@@ -1,0 +1,31 @@
+#row2{
+    background-color: rgba(45,79,131,255);
+    height: 80px;
+    align-items: center;
+    width: 110%;
+    
+}
+.icono-placeholder{
+    margin-left: 200px;
+    width: 30%;
+    height: 50px;
+    text-align: center;
+    font-size: 25px; 
+    border-radius: 5px;
+    background-color: rgba(238,238,238,255);
+
+}
+
+@media screen and (max-width: 1280px) {
+    .icono-placeholder{
+        width: 90%;
+        margin-left: 10px;
+    }
+    
+}
+
+::placeholder{
+    background-image: url(../icons/search-solid.svg);
+    background-repeat: no-repeat;
+}
+

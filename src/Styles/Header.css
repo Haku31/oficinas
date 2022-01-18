@@ -1,0 +1,10 @@
+#row1{
+    height: 120px;
+}
+
+#img1{
+    position: relative;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 200px;
+}
